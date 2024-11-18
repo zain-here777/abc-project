@@ -1,0 +1,31 @@
+@import "variables";
+
+@mixin btn($bgColor , $color , $borderColor) {
+  background-color: $bgColor;
+  color: $color;
+  border: 5px solid $borderColor;
+  padding: 10px 30px;
+  border-radius: 100px;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: gray;
+  }
+}
+
+.animated-btn {
+  @include btn(red , green , black);
+}
+.button-2{
+  @include btn(blue , red , green);
+}
+.button-3{
+  @include btn(green , blue , red)
+}
+.animated-btn{
+
+}
+.animated-btn:hover{
+
+}
+
+@import "media";

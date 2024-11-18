@@ -1,0 +1,43 @@
+.animated-btn {
+  background-color: red;
+  color: green;
+  border: 5px solid black;
+  padding: 10px 30px;
+  border-radius: 100px;
+  transition: 0.3s ease-in-out;
+}
+.animated-btn:hover {
+  background-color: gray;
+}
+
+.button-2 {
+  background-color: blue;
+  color: red;
+  border: 5px solid green;
+  padding: 10px 30px;
+  border-radius: 100px;
+  transition: 0.3s ease-in-out;
+}
+.button-2:hover {
+  background-color: gray;
+}
+
+.button-3 {
+  background-color: green;
+  color: blue;
+  border: 5px solid red;
+  padding: 10px 30px;
+  border-radius: 100px;
+  transition: 0.3s ease-in-out;
+}
+.button-3:hover {
+  background-color: gray;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 60px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
